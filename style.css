@@ -1,0 +1,35 @@
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    flex: 1 1 0;
+  
+    background-color: rgb(223, 192, 192);
+    color:rgb(226, 219, 226);
+    overflow: auto;
+    justify-content: right;
+    padding: 1em;
+    text-align: center;
+    padding :1em;
+} /*Changes the the navigation bar to an unordered list*/
+
+li{
+    height: 20px;
+    float: left;
+   
+    border-right: none;
+    padding-right: 0 25px;
+    flex: 1 1 0;
+    }
+      
+    body { 
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        text-align: center;
+       
+    }
+    /*@media(max-width: 30em) {
+        .nav
+
+    }*/
